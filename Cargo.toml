@@ -1,0 +1,11 @@
+[package]
+name = "platformer-rust"
+version = "0.1.0"
+authors = ["Pepijn Dragt <pepijn.dragt@gmail.com>"]
+
+[dependencies]
+
+[dependencies.sdl2]
+version = "0.30"
+default-features = false
+features = ["ttf", "image", "gfx", "mixer"]
