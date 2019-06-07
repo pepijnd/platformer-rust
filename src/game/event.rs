@@ -8,7 +8,7 @@ use std::cell::RefCell;
 
 pub enum EventInfoType<'a> {
     ByEvent(Rc<RefCell<Event>>),
-    Controller(Rc<RefCell<GameController<'a>>>),
+    Controller(Rc<RefCell<GameController>>),
     Contexts(ContextsProvider<'a>),
     GameVariables(Rc<RefCell<GameVariables>>)
 }

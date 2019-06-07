@@ -1,3 +1,4 @@
+/*
 use std::path::Path;
 
 use sdl2::surface::Surface;
@@ -46,4 +47,4 @@ impl Sprite {
                                                                           self.surface.width(),
                                                                           self.surface.height()));
     }
-}
+}*/
